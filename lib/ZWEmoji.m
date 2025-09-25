@@ -63,7 +63,7 @@ static NSDictionary *_codes = nil;
 
         for (NSString *emoji in _emojis) {
             if (![ignore containsObject:emoji]) {
-                [emojiString replaceOccurrencesOfString:emoji withString:_emojis[emoji] options:NSCaseInsensitiveSearch range:NSMakeRange(0, [emojiString length])];
+                [emojiString replaceOccurrencesOfString:emoji withString:_emojis[emoji] options:NSLiteralSearch range:NSMakeRange(0, [emojiString length])];
             }
         }
 
