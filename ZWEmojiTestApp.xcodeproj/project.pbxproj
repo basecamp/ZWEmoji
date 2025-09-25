@@ -194,7 +194,6 @@
 				92DE0C1015F107F600C47BC4 /* Sources */,
 				92DE0C1115F107F600C47BC4 /* Frameworks */,
 				92DE0C1215F107F600C47BC4 /* Resources */,
-				92DE0C1315F107F600C47BC4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -221,6 +220,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 92DE0BE915F107F600C47BC4;
@@ -254,22 +254,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		92DE0C1315F107F600C47BC4 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		92DE0BF015F107F600C47BC4 /* Sources */ = {
@@ -390,7 +374,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWEmojiTestApp/ZWEmojiTestApp-Prefix.pch";
 				INFOPLIST_FILE = "ZWEmojiTestApp/ZWEmojiTestApp-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = ZWEmojiTestApp;
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,7 +387,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWEmojiTestApp/ZWEmojiTestApp-Prefix.pch";
 				INFOPLIST_FILE = "ZWEmojiTestApp/ZWEmojiTestApp-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = ZWEmojiTestApp;
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,7 +405,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWEmojiTestApp/ZWEmojiTestApp-Prefix.pch";
 				INFOPLIST_FILE = "ZWEmojiTests/ZWEmojiTestAppTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = ZWEmojiTestAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
@@ -439,7 +423,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZWEmojiTestApp/ZWEmojiTestApp-Prefix.pch";
 				INFOPLIST_FILE = "ZWEmojiTests/ZWEmojiTestAppTests-Info.plist";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				MACOSX_DEPLOYMENT_TARGET = 14.6;
 				PRODUCT_NAME = ZWEmojiTestAppTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
