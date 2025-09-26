@@ -126,6 +126,8 @@
   XCTAssertTrue([[ZWEmoji unemojify:@"smile 😄 and cry 😢"] isEqualToString:@"smile :smile: and cry :cry:"]);
   
   XCTAssertTrue([[ZWEmoji unemojify:@"blah😄 and asdfasdf 😢"] isEqualToString:@"blah:smile: and asdfasdf :cry:"]);
+    
+  XCTAssertTrue([[ZWEmoji unemojify:@"Test 1"] isEqualToString:@"Test 1"]);
   
   XCTAssertFalse([[ZWEmoji unemojify:@"👍"] isEqualToString:@":+1"]);
   XCTAssertFalse([[ZWEmoji unemojify:@"👍"] isEqualToString:@":-1:"]);
